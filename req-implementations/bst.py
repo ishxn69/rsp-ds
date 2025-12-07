@@ -43,6 +43,7 @@ def get_successor(curr):
     while curr is not None and curr.left is not None:
         curr = curr.left
     return curr
+    
 # Deletion Part 2: Deletion function
 def del_node(root, x):
     # base case
